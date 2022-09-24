@@ -18,6 +18,7 @@ body {
 
 .brand {
  margin-top: -7px;
+ font-size: 1.7rem;
 }
 
 .brand span {
@@ -34,6 +35,7 @@ body {
 .menu {
   display: flex;
   width: 50%;
+  font-size: 1.5rem;
   justify-content: space-around;
 }
 
@@ -67,19 +69,25 @@ body {
 }
 
 .main img {
-  /* width: 420px;
-  border: 7px ; */
-  /* height: 290px; */
+  width: 700px;
+  border: 7px ;
+  height: 590px;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 3.5em;
   font-weight:900;
   margin-bottom: 10px;
 }
 
+.info-content p{
+ font-size: 25px;
+}
+
 .download-cv{
   padding: 10px 20px;
+  font-family:'Montserrat', sans-serif;
+  font-weight: bold;
   background-color: aqua;
   border:none;
   border-radius: 20px;
